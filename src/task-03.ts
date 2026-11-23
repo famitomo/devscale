@@ -18,7 +18,7 @@ const nilaiTugas = await input({ message: "nilai tugas:" });
 const nilai1 = Number(nilaiTugas);
 const nilaiPraktek = await input({ message: "nilai praktek:" });
 const nilai2 = Number(nilaiPraktek);
-const nilaiUas = await input({ message: "nilai nilaiUas:" });
+const nilaiUas = await input({ message: "nilai Uas:" });
 const nilai3 = Number(nilaiUas);
 
 const jumlahNilai = nilai1 + nilai2 + nilai3;
