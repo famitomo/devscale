@@ -24,19 +24,14 @@ const nilai3 = Number(nilaiUas);
 const jumlahNilai = nilai1 + nilai2 + nilai3;
 const totalNilai = jumlahNilai / 3;
 
+console.log(`Nama = ${namaLengkap}`)
+console.log(`Prodi = ${prodi}`)
+console.log(`Nilai =  ${totalNilai}`)
+
 if (totalNilai >= 80) {
-  console.log(`Nama = ${namaLengkap}`)
-  console.log(`Prodi = ${prodi}`)
-  console.log(`Nilai =  ${totalNilai}`)
   console.log("SELAMAT ANDA LULUS DENGAN MEMUASKAN");
 }else if (totalNilai >= 70) {
-  console.log(`Nama = ${namaLengkap}`)
-  console.log(`Prodi = ${prodi}`)
-  console.log(`Nilai =  ${totalNilai}`)
   console.log("SELAMAT ANDA LULUS");
 } else {
-  console.log(`Nama = ${namaLengkap}`)
-  console.log(`Prodi = ${prodi}`)
-  console.log(`Nilai =  ${totalNilai}`)
   console.log("MAAF ANDA MENGULANG LAGI TAHUN DEPAN");
 }
