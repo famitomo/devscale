@@ -2,7 +2,6 @@ import { input, select } from "@inquirer/prompts";
 
 const nama = await input({ message: "silahkan tulis nama anda: " });
 const namaLengkap = nama.toUpperCase()
-console.log(namaLengkap)
 
 const pilihProdi = await select({
   message: "silahkan pilih Prodi anda : ",
